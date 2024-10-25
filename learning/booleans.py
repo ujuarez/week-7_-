@@ -1,3 +1,63 @@
+########## -VIDEO NOTES (10/23/24)- ##########
+
+# Comparisons:
+# Equal:                ==
+# Not Equal:            !=
+# Greather Than:        >
+# Less Than:            <
+# Greater or Equal      >=
+# Less or Equal:        <=
+# Object Identity:      is
+
+#language = 'Java'
+
+#if language == 'Python':
+    #print('Language is Python')
+#elif language == 'Java':
+    #print('Language is Java')
+#elif language == 'JavaScript':
+    #print('Language is JavaScript')
+#else:
+    #print('No match')
+
+###### and - (if one is false, then full thing is FALSE) ######
+###### or - (if one is true, then full thing is TRUE)    ######
+###### not - (Makes true or false the OPPOSITE)          ######
+
+#user = 'Admin'
+#logged_in = False
+
+#if user == 'Admin' or logged_in:
+    #print('Admin Page')
+#else:
+    #print('Bad Creds')
+
+#if not logged_in:
+    #print('Please Log in')
+#else:
+    #print('Welcome')
+
+#a = [1, 2, 3]
+#b = a
+
+#print(id(a))
+#print(id(b))
+#print(a is b)
+
+######## False Values- ########
+    # False
+    # None
+    # Zero of any numerial type
+    # Any empty sequence. For example; '', (), [].
+    # Any empty mapping. For example; ().
+
+#condition = 'Test'
+
+#if condition:
+    #print('Evaluated to True')
+#else:
+    #print('Evaluated to False')
+
 
 ############################################################################
 # Boolean expressions are statements that can be either True or False. In Python, the boolean data type is represented by the built-in data type bool.
